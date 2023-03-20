@@ -9,4 +9,6 @@ Ever wonder what makes that cup of coffee taste so good?  Coffee must be planted
 
 ## Extract + Transform
 
-Data was drawn from the Coffee Quality database to create the original CSV used in this project.  The CSV was then loaded into 
+Data was drawn from the Coffee Quality database to create the original CSV used in this project.  The CSV was then loaded into a Google drive to be used simultaniously by the team.  However, once we began working through our code for cleaning and sorting the data we realized the Google drive would not provide the correct access and switched it to a Visual Studio Code in which the original CSV files had to be downloaded from our shared GitHub repository. 
+
+The data was extracted after being cleaned for nulls and also a quick hand-cleaning of data from the elevation column in which many entries were in the form of feet, symbols and other objects which would not have read into the dataframes properly.  
