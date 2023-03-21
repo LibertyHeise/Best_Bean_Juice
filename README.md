@@ -25,12 +25,13 @@ Then, we looked at the difference between flavor profiles and the total cup poin
 <img width="1024" alt="Screenshot 2023-03-20 at 8 00 56 PM" src="https://user-images.githubusercontent.com/109040678/226501426-4cd6075f-778d-4549-aeb7-cf6a6859302c.png">
 
 Looking at comparative data from number of products being cupped and cupping numbers, it was apparent that Central and South America had the highest quantity of coffee with Mexico being at the top.  However, cup averages are almost all the same, in the 80's.
+<img width="875" alt="Screenshot 2023-03-20 at 8 01 26 PM" src="https://user-images.githubusercontent.com/109040678/226501952-af718aca-ef87-411b-8702-a0522c2de5c3.png">
 
 <img width="875" alt="Screenshot 2023-03-20 at 8 01 11 PM" src="https://user-images.githubusercontent.com/109040678/226501605-264b3f26-3850-469c-83db-33f3b20496e3.png">
 
 Finally, the flavor profiles were transformed into a single calculated field to compare with total cup points for all countries of origin.  What we found were that these profiles were identical to the total cup points (minus ~20k due to the subtraction of non-useful columns).
 
-
+<img width="648" alt="Screenshot 2023-03-20 at 8 01 50 PM" src="https://user-images.githubusercontent.com/109040678/226501930-dd34ddc7-5e43-4b73-acfe-ab05fb5b6e40.png">
 
 
 
