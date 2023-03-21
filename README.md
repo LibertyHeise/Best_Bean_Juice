@@ -17,9 +17,19 @@ The data was extracted after being cleaned for nulls and also a quick hand-clean
 
 ## Tableau
 The CSVs were loaded into Tableau and then utilized to observe and demonstrate differences and similarities between flavor profiles, countries of origin and other tabulations.  Ultimately, the data told a story in which linear regression was most helpful.  
-<img width="891" alt="Screenshot 2023-03-20 at 8 00 33 PM" src="https://user-images.githubusercontent.com/109040678/226496624-149405ff-d3f8-4a15-95b5-24d05477e928.png">
 
-<img width="1024" alt="Screenshot 2023-03-20 at 8 00 56 PM" src="https://user-images.githubusercontent.com/109040<img width="875" alt="Screenshot 2023-03-20 at 8 01 11 PM" src="https://user-images.githubusercontent.com/109040678/226496649-270da8e4-5574-4f92-b0ea-f11e01ee9059.png">
+We looked at coffee data from around the globe.
+<img width="891" alt="Screenshot 2023-03-20 at 8 00 33 PM" src="https://user-images.githubusercontent.com/109040678/226501388-53f66d84-474a-4b9b-af0e-827b3f353058.png">
+
+Then, we looked at the difference between flavor profiles and the total cup points by country of origin.  At this point in the visualization, it was apparent that the data was linear and correlated.  However, we continued to work on finding meaning through our neural network machine learning.  
+<img width="1024" alt="Screenshot 2023-03-20 at 8 00 56 PM" src="https://user-images.githubusercontent.com/109040678/226501426-4cd6075f-778d-4549-aeb7-cf6a6859302c.png">
+
+Looking at comparative data from number of products being cupped and cupping numbers, it was apparent that Central and South America had the highest quantity of coffee with Mexico being at the top.  However, cup averages are almost all the same, in the 80's.
+
+<img width="875" alt="Screenshot 2023-03-20 at 8 01 11 PM" src="https://user-images.githubusercontent.com/109040678/226501605-264b3f26-3850-469c-83db-33f3b20496e3.png">
+
+Finally, the flavor profiles were transformed into a single calculated field to compare with total cup points for all countries of origin.  What we found were that these profiles were identical to the total cup points (minus ~20k due to the subtraction of non-useful columns).
+
 
 
 
