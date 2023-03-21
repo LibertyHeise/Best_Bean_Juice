@@ -15,11 +15,12 @@ The data was extracted after being cleaned for nulls and also a quick hand-clean
 
 ## Machine Learning
 
-<img width="630" alt="Screenshot 2023-03-16 at 7 26 13 PM" src="https://user-images.githubusercontent.com/109040678/226502126-b62d9bd7-8665-410d-9785-c4372b763976.png">
+<img width="630" alt="Screenshot 2023-03-16 at 7 26 13 PM" src="https://user-images.githubusercontent.com/109040678/226502324-31bffd9e-9914-40bc-8efb-06e30a5792d2.png">
 
-<img width="630" alt="Screenshot 2023-03-16 at 8 33 08 PM" src="https://user-images.githubusercontent.com/109040678/226502146-4c79ceee-b6ad-4cdb-951e-6c86c37453e6.png">
+<img width="630" alt="Screenshot 2023-03-16 at 8 33 08 PM" src="https://user-images.githubusercontent.com/109040678/226502350-e9f52a33-b8d4-46eb-a4e8-20e28a6b43ef.png">
 
 ## Tableau
+
 The CSVs were loaded into Tableau and then utilized to observe and demonstrate differences and similarities between flavor profiles, countries of origin and other tabulations.  Ultimately, the data told a story in which linear regression was most helpful.  
 
 We looked at coffee data from around the globe.
