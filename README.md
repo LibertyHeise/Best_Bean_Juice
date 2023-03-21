@@ -17,3 +17,10 @@ The data was extracted after being cleaned for nulls and also a quick hand-clean
 
 ## Tableau
 The CSVs were loaded into Tableau and then utilized to observe and demonstrate differences and similarities between flavor profiles, countries of origin and other tabulations.  Ultimately, the data told a story in which linear regression was most helpful.  
+<img width="891" alt="Screenshot 2023-03-20 at 8 00 33 PM" src="https://user-images.githubusercontent.com/109040678/226496624-149405ff-d3f8-4a15-95b5-24d05477e928.png">
+
+<img width="1024" alt="Screenshot 2023-03-20 at 8 00 56 PM" src="https://user-images.githubusercontent.com/109040<img width="875" alt="Screenshot 2023-03-20 at 8 01 11 PM" src="https://user-images.githubusercontent.com/109040678/226496649-270da8e4-5574-4f92-b0ea-f11e01ee9059.png">
+
+
+
+
