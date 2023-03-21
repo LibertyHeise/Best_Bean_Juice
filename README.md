@@ -13,7 +13,11 @@ Data was drawn from the Coffee Quality database to create the original CSV used 
 
 The data was extracted after being cleaned for nulls and also a quick hand-cleaning of data from the elevation column in which many entries were in the form of feet, symbols and other objects which would not have read into the dataframes properly, columns that were deemed unnecessary were removed from the set.  
 
-## SQL/ETL
+## Machine Learning
+
+<img width="630" alt="Screenshot 2023-03-16 at 7 26 13 PM" src="https://user-images.githubusercontent.com/109040678/226502126-b62d9bd7-8665-410d-9785-c4372b763976.png">
+
+<img width="630" alt="Screenshot 2023-03-16 at 8 33 08 PM" src="https://user-images.githubusercontent.com/109040678/226502146-4c79ceee-b6ad-4cdb-951e-6c86c37453e6.png">
 
 ## Tableau
 The CSVs were loaded into Tableau and then utilized to observe and demonstrate differences and similarities between flavor profiles, countries of origin and other tabulations.  Ultimately, the data told a story in which linear regression was most helpful.  
