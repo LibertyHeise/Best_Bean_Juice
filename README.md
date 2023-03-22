@@ -38,5 +38,13 @@ Finally, the flavor profiles were transformed into a single calculated field to 
 
 <img width="648" alt="Screenshot 2023-03-20 at 8 01 50 PM" src="https://user-images.githubusercontent.com/109040678/226501930-dd34ddc7-5e43-4b73-acfe-ab05fb5b6e40.png">
 
+The tools that we utilized were the following:
+Python, Pandas, and Google Colab were used to complete the ETL process and Machine Learning
+We used Scikit-Learn for our prediction models in Machine Learning
+We utilized SQL to load our data into Tableau.
+We then used Tableau for our table visualization
+![analysys](https://user-images.githubusercontent.com/106696262/227063919-9a676016-d435-4e7b-9557-a39acbd26e9d.jpg)
+
+
 
 
