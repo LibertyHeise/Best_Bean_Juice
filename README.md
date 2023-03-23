@@ -14,12 +14,26 @@ Data was drawn from the Coffee Quality database to create the original CSV used 
 
 Once we started to use VSCode, the first thing we did was download the database we found called “coffee_ratings.csv” which had the data qualities that we were searching for. We Extracted our data from the csv and imported it as a dataframe into jupyter notebook.
 
+<img width="739" alt="Screenshot 2023-03-22 at 2 22 59 PM" src="https://user-images.githubusercontent.com/111312397/227069181-56ec9826-b453-448d-84a5-c1d5c12a3e63.png">
+
+
 ### Transform
 After that we made multiple data frames so that we can see the accuracy based on flavor profile and demographics specifically. We dropped all the nulls from both data frames so our data would be more concise. We then focused on demographic df and changed the integer that was in place for the dates used in the “grading_date” column to a datetime format; the column “grading_date” was also changed to a datetime year. 
 
+
+<img width="1001" alt="Screenshot 2023-03-22 at 2 28 23 PM" src="https://user-images.githubusercontent.com/111312397/227069385-36ced979-e20e-4d50-8fa0-fdc952c671ae.png">
+<img width="1095" alt="Screenshot 2023-03-22 at 2 28 03 PM" src="https://user-images.githubusercontent.com/111312397/227069387-35e8673e-0897-4e55-bd31-2a4620fb78ad.png">
+
 It was at this point when we were trying to narrow down some of our columns, did we see that there were some serious differences between the data in each column. The year sometimes had varying symbols in them that made it ununiform, as well as the elevation measurement types varied. The data was extracted after being cleaned for nulls and a quick hand-cleaning of data for anomalies in the columns was done. Other objects which would not have read into the dataframes properly along with columns that were deemed unnecessary were removed from the set. Finally we were able to upload the best version of the csv called “New_ETL.csv”.
 
+<img width="181" alt="Screenshot 2023-03-22 at 2 17 30 PM" src="https://user-images.githubusercontent.com/111312397/227069416-4f32efde-6c34-48f0-8df6-4b1653fd8866.png">
+<img width="140" alt="Screenshot 2023-03-22 at 2 17 14 PM" src="https://user-images.githubusercontent.com/111312397/227069419-cc69ec88-a75b-4915-845a-7e71ad3fb1e7.png">
+
+
 In a last push to make our data more uniform, we made a “year_diff” column that subtracts the year that the coffee was graded (or tasted) from the year that coffee was actually harvested. We then made our new dataframes (demographic_df and flavor_profie_df) into new CSV’s so they would be ready to load into Postgresql.
+
+<img width="931" alt="Screenshot 2023-03-22 at 2 57 27 PM" src="https://user-images.githubusercontent.com/111312397/227069471-043297f7-cdc0-4e71-a6f5-f93b38d5b785.png">
+
 
 ### Load
 In our final steps, we uploaded our newly squeaky clean dataframes and concatinated them into one called coffee_df. We then pushed all of this to SQL and were able to see our new tables made within postgres.
