@@ -15,9 +15,22 @@ The data was extracted after being cleaned for nulls and also a quick hand-clean
 
 ## Machine Learning
 
-<img width="630" alt="Screenshot 2023-03-16 at 7 26 13 PM" src="https://user-images.githubusercontent.com/109040678/226502324-31bffd9e-9914-40bc-8efb-06e30a5792d2.png">
+For the machine learning portion of the project, the csvs that were created during the ETL process were used. To be able to apply them to machine learning the data need to be  converted into a usable form. The data points that were strings needed to be changed into integers. Once this was done the dataframes could be  implemented to multiple models or.
 
-<img width="630" alt="Screenshot 2023-03-16 at 8 33 08 PM" src="https://user-images.githubusercontent.com/109040678/226502350-e9f52a33-b8d4-46eb-a4e8-20e28a6b43ef.png">
+![image](https://user-images.githubusercontent.com/113384120/227066672-3a52c776-eb68-4699-88bd-ebb19ff81e37.png)
+
+The first model that was used was to see if the data could be clustered. It was found that the data could be clustered. By utilizing the elbow curve we found that it could be clustered into two groups and possibly three. This backed the thinking of using two groups, flavor and demographics. To simplify the machine learning, both groups were used together in one dataframe for most of the models.
+
+![image](https://user-images.githubusercontent.com/113384120/227066980-a3f9f1b0-db87-4753-91dc-1a6992d2b234.png)
+
+To ensure that the dataset could be used for predictions a set of regressors were applied to it. We used regressors because our data is on a continuum rather than a binary scale. We found from the regressors that there appeared to be a good predictive data. As shown below.
+
+![image](https://user-images.githubusercontent.com/113384120/227067079-a7d88759-92a2-4b61-8ce1-3def3e9359eb.png)
+
+When the regressors showed that the coffee dataset could possibly be predictive it was applied to a deep neural network. The deep neural network was used to see what predictions, or if we could make predictions based upon the data that we had.  Many issues appeared, or more like one big issue, and that was our accuracy and  losses were way out of proportion to the regressors. To sum it up our accuracy never got over 0. Despite changing the number of nodes, the number of layers, the activation, and the compile model loss the accuracy remained 0 and our losses were exponential. Even when breaking down our main data set into the clusters of flavor and demographic accuracy and loss remain the same. What was found after taking a deeper look at the data was that the data points were not independent of each other. In other words, the column that was being used for prediction was dependent on the sum of flavor columns.
+
+![image](https://user-images.githubusercontent.com/113384120/227067205-f4eb60ea-9faf-44f1-af57-2997d78cc7dc.png)
+![image](https://user-images.githubusercontent.com/113384120/227067248-00cf49aa-735a-4615-bb1c-75d547363ccd.png)
 
 ## Tableau
 
